@@ -1,0 +1,327 @@
+/* s_menu */
+
+section{}
+section .align{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section .align h2{
+    font-size: 42px;
+    margin: 25px 0 50px 0;
+}
+section .s_menu li .con1{
+    background: url(../img/sub_img1.jpg) center;
+    background-size: cover;
+    height: 300px;
+    padding : 100px 0 0 300px;
+    position: relative;
+}
+section .s_menu li .con1 .txt-box{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+section .s_menu li .con2{
+    background: url(../img/sub_img2.jpg) center;
+    background-size: cover;
+    height: 300px;
+    padding : 100px 0 0 300px;
+    position: relative;
+}
+section .s_menu li .con2 .txt-box{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+section .s_menu li .con3{
+    background: url(../img/sub_img4.jpg) center;
+    background-size: cover;
+    height: 300px;
+    padding : 100px 0 0 300px;
+    position: relative;
+}
+section .s_menu li .con3 .txt-box{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    color: #fff;
+}
+section .s_menu li .con3 .txt-box button{
+    color: #fff;
+    border: 1px solid #fff;
+}
+section .s_menu .con4{
+    background: url(../img/sub_img3.jpg) center;
+    background-size: cover;
+    height: 300px;
+    padding : 100px 0 0 300px;
+    position: relative;
+}
+section .s_menu li .con4 .txt-box{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+section .s_menu li div{
+    font-size: 32px;
+    font-weight: 700;
+}
+section .s_menu li p{
+    font-size: 18px;
+    padding: 10px 0;
+}
+section .s_menu li button{
+    border: 2px solid #000;
+    color: #000;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.s_menu button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+/* s_store */
+
+.s_store{}
+.s_store .con1{
+    background: url(../img/s_s_img1.jpeg) center;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.s_store .con1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+}
+.s_store .con1 .img-box{
+}
+.s_store .con1 .img-box img{
+    width: 200px;
+}
+
+.s_store .con1 .txt-box{
+    color: #fff;
+}
+.s_store .con1 .txt-box div{
+    font-size: 32px;
+    font-weight: 700;
+}
+.s_store .con1 .txt-box p{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #a8a8a8;
+}
+.s_store .con1 .txt-box button{
+    color: #fff;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.s_store .con1 .txt-box button:hover{
+    color: #000;
+    transition: 1s;
+    background-color: #fff;
+}
+
+.s_store .con2{
+    background: url(../img/s_s_img2.jpg) center;
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+}
+.s_store .con2 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+}
+.s_store .con1 .img-box{
+    order: 2;
+}
+.s_store .con2 .img-box img{
+    width: 400px;
+}
+.s_store .con2 .txt-box{
+    color: #fff;
+    order: 1;
+}
+.s_store .con2 .txt-box div{
+    font-size: 32px;
+    font-weight: 700;
+}
+.s_store .con2 .txt-box p{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #a8a8a8;
+}
+.s_store .con2 .txt-box button{
+    color: #fff;
+    border: 2px solid #fff;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.s_store .con2 .txt-box button:hover{
+    color: #000;
+    transition: 1s;
+    background-color: #fff;
+}
+.s_store .next{
+    display: none;
+}
+
+/* s_customer */
+.s_cus{}
+.s_cus .con1{
+    background-color: #7db1af;
+    height: 400px;
+}
+.s_cus .con1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s_cus .con1 .container .txt-box{
+    margin-left: 150px;
+}
+.s_cus .con1 .container .txt-box div{
+    font-size: 26px;
+    font-weight: 600;
+}
+.s_cus .con1 .container .txt-box p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.s_cus .con1 .container .txt-box button{
+    color: #000;
+    border: 2px solid #000;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.s_cus .con1 .container .txt-box button:hover{
+    color: #fff;
+    transition: 1s;
+    background-color: #000;
+}
+.s_cus .con1 .container .img-box img{
+    height: 400px;
+    width: 530px;
+}
+.s_cus .con2{
+    height: 400px;
+    background-color: #ddd;
+}
+.s_cus .con2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s_cus .con2 .container .img-box{
+    order: 2;
+}
+.s_cus .con2 .container .img-box img{
+    height: 400px;
+}
+.s_cus .con2 .container .txt-box{
+    order: 1;
+    margin-right: 150px;
+}
+.s_cus .con2 .container .txt-box div{
+    font-size: 26px;
+    font-weight: 600;
+}
+.s_cus .con2 .container .txt-box p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.s_cus .con2 .container .txt-box button{
+    color: #000;
+    border: 2px solid #000;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.s_cus .con2 .container .txt-box button:hover{
+    color: #fff;
+    transition: 1s;
+    background-color: #000;
+}
+.s_cus .next{
+    display: none;
+}
+
+/* s_pascucci */
+.s_pas{}
+.s_pas .con1{
+    background-image: url(/img/s_p_img1.jpg);
+    height: 430px;
+    position: relative;
+}
+.s_pas .txt-box{
+    width: 450px;
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.s_pas .txt-box div{
+    font-size: 24px;
+    font-weight: 700;
+}
+.s_pas .txt-box p{
+    font-size: 16px;
+    margin: 20px 0 50px 0;
+}
+.s_pas .txt-box button{
+    border: 1px solid #000;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+.s_pas .txt-box button:hover{
+    color: #fff;
+    background-color: #000;
+    transition: 1s;
+}
+.s_pas .con2{
+    background-image: url(/img/s_p_img2.jpg);
+    height: 430px;
+    position: relative;
+}
+.s_pas .con2 .txt-box{
+    width: 450px;
+    position: absolute;
+    left: 70%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.s_pas .con2 .txt-box button{
+    border: 1px solid #fff;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+}
+.s_pas .con2 .txt-box button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.s_pas .con3{
+    background-image: url(/img/s_p_img3.jpg);
+    height: 430px;
+    position: relative;
+}
+.s_pas .next{
+    display: none;
+}

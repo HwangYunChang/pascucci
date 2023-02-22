@@ -1,0 +1,181 @@
+/* section1 */
+
+section .sec1 .story-container{
+    background: url(../img/section1.img.jpg) fixed center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+section .sec1 .story-container .txt-box{
+    text-align: center;
+    padding: 130px 0;
+}
+section .sec1 div{
+    font-size: 1.6vw;
+    color: #000;
+    margin-bottom: 50px;
+    line-height: 40px;
+    font-weight: 700;
+}
+section .sec1 button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+section .sec1 button:hover{
+    background-color: #E1002A;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* section2 */
+
+.sec2{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.sec2 .txt-box{
+    text-align: center;
+}
+.sec2 .txt-box div{
+    font-size: 3.5vw;
+    font-weight: bold;
+    color: #E1002A;
+    margin-bottom: 30px;
+}
+.sec2 .txt-box p{
+    font-size: 1.6vw;
+    margin-bottom: 100px;
+}
+
+.sec2 .slide {
+    width: 3000px;
+    height: 300px;
+    background:url(../img/section2.jpg);
+    animation: roll 15s linear infinite;
+}
+
+@keyframes roll{
+    0% {
+        background-position:0px 0px;
+    }
+    100%{
+        background-position: 3000px 0px;
+    }
+}
+
+/* section3 */
+
+.sec3{
+}
+.sec3 ul{
+    display: flex;
+    height: 960px;
+    text-align: center;
+}
+.sec3 ul li{
+    width: 33%;
+    padding: 150px 0;
+}
+.sec3 ul li:nth-child(2){
+    background-color: #eee;
+}
+.sec3 ul li div{
+    font-size: 20px;
+}
+.sec3 ul li p{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px 0 50px 0;
+}
+.sec3 .table-flex .next{
+    display: none;
+}
+.sec3 ul li .img-box :hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.sec3 ul li .img-box{
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+.sec3 ul li button{
+    margin-top: 30px;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.sec3 ul li button:hover{
+    color: #fff;
+    background-color: #E1002A;
+}
+
+/* section4 */
+
+.sec4 .container{
+    position: relative;
+}
+.sec4 .container img:nth-child(2){
+    display: none;
+}
+.sec4 img{
+    width: 100%;
+    height: 550px;
+}
+.sec4 .txt-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    width: 100%;
+}
+.sec4 .txt-box div{
+    font-size: 2vw;
+    font-weight: 700;
+    text-align: center;
+}
+.sec4 .txt-box p{
+    font-size: 1.4vw;
+    margin: 30px 0;
+    text-align: center;
+}
+.sec4 .txt-box .search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sec4 .txt-box .search img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+.sec4 .txt-box input{
+    width: 50%;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #eee;
+    opacity: 0.5;
+    border: none;
+    padding: 5px 0 0 60px;
+    min-width: 150px;
+    margin: 0 auto;
+}
+
+.sec4 .txt-box input::placeholder{
+    font-size: 1.1vw;
+}
